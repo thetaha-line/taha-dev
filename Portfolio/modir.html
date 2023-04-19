@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
+    
+    <style>
+        #mdr{
+            width: 350px;
+            height: 450px;
+            transition: all .5s;
+            border-radius: 10%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 8%;
+        }
+        #mdr:hover{
+            transform: scale(1.1);
+
+        }
+
+        table,th,td{ 
+       
+       border: 2px solid rgb(20, 16, 16);
+       border-collapse: collapse;
+        }
+
+        th,td:hover{
+        padding: 40px;
+        font-size: 30px;
+    }
+
+    h2,h4{
+        margin-top: 20px;
+        text-align: center;
+        background-color: lightsteelblue;
+        border: 1px solid black;
+        border-radius: 20%;
+        height: 50px;
+    }
+
+    #cd{
+        width: 300px;
+            height: 450px;
+            transition: all .5s;
+            border-radius: 10%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            
+
+    }
+    #cd:hover{
+        transform: scale(1.1);
+    }
+
+   
+
+    #fg{
+        background-color: grey;
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(142, 183, 204);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(7, 61, 82);
+    text-decoration: none;
+    color: white;
+  }
+  li a.active{
+      background-color: greenyellow;
+  }
+  li.list:hover{
+      border-bottom: 5px solid rgb(10, 10, 8);
+
+  }
+  @media screen and (max-width: 600px) {
+    ul li {
+        float: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container jumborton">
+        <header><img src="./logomodir.JPG" alt="photo" style="height: 200px;width: 100%;object-fit:initial;"></header>
+        </div>
+
+        <hr>
+
+        <ul>
+           
+            <li class="list">
+                <a href="./vrodd.html">
+                    ورود اعضا
+                </a>
+            </li>
+           
+            
+            <li class="list">
+                <a href="./ghanoon.html">
+                    مقررات و آیین نامه ها
+                </a>
+            </li>
+            <li class="list">
+                <a href="./soal.html">
+                    سوالات متداول
+                </a>
+            </li>
+            <li class="list">
+                <a href="./agahi.html">
+                    آگهی ها
+                </a>
+            </li>
+            <li style="float: left;">
+                <a href="./index.html">
+                    صفحه اصلی
+                    <i class="fa fa-home">Home</i>
+                </a>
+            </li>
+    
+        </ul>
+      
+
+
+        <hr>
+
+        <div class="container jumborton">
+            <div class="row">
+
+                <div id="fg" style="border: 2px solid black;" class="col-12 col-sm-12 col-md-4">
+                    <h2>نائب رئیس</h2>
+                    <img id="mdr" src="./188.jpg" alt="photo">
+                    <h4>آقای دکتر عبدالجواد رحیم پور</h4>
+
+                </div>
+
+                <div id="fg" style="border: 2px solid black;" class="col-12 col-sm-12 col-md-4">
+                    <h2>مدیر عامل</h2>
+                    <img id="mdr" src="./193.jpg" alt="photo">
+                    <h4>آقای مهندس محمدیان</h4>
+
+                </div>
+
+                <div id="fg" style="border: 2px solid black;" class="col-12 col-sm-12 col-md-4">
+                    <h2>رئیس هیئت مدیره</h2>
+                    <img id="mdr" src="./187.jpg" alt="photo">
+                    <h4>آقای دکتر سید محمود میران</h4>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="container jumborton">
+            <div class="row">
+
+                <div id="fg" style="border: 2px solid black;" class="col-12 col-sm-12 col-md-3">
+                    <h2> بازرس</h2>
+                    <img id="cd" src="./192.jpg" alt="photo">
+                    <h4> آقای دکتر هاشمی قوچانی</h4>
+
+                </div>
+
+                <div id="fg" style="border: 2px solid black;" class="col-12 col-sm-12 col-md-3">
+                    <h2>عضو هیئت مدیره </h2>
+                    <img id="cd" src="./190.jpeg" alt="photo">
+                    <h4>آقای دکتر علی کنگرلو حقیقی</h4>
+
+                </div>
+
+                <div id="fg" style="border: 2px solid black;" class="col-12 col-sm-12 col-md-3">
+                    <h2>عضو هیئت مدیره</h2>
+                    <img id="cd" src="./191.jpg" alt="photo">
+                    <h4> آقای دکتر علیرضا نجفی انارکی</h4>
+
+                </div>
+
+                <div id="fg" style="border: 2px solid black;" class="col-12 col-sm-12 col-md-3">
+                    <h2>منشی هیئت مدیره</h2>
+                    <img id="cd" src="./189.jpg" alt="photo">
+                    <h4>آقای دکتر علیرضا شفیعی</h4>
+
+                </div>
+
+
+            </div>
+
+        </div>
+      
+    <!-- 
+        <div class="container-fluid">
+        
+       <table>
+        
+           <tr>
+             <th><h2>نائب رئیس</h2></th>
+                <th><h2>مدیر عامل</h2></th>
+                <th><h2>رئیس هیئت مدیره</h2></th>
+           </tr>
+           
+           
+           <tr>
+             <td><img id="mdr" src="./188.jpg" alt="photo"><h5 style="margin-top: 30px;"> آقای دکتر عبدالجواد رحیم پور</h5></td>
+             <td><img id="mdr" src="./193.JPG" alt="photo"><h5 style="margin-top: 30px;"> آقای مهندس محمدیان</h5></td>
+             <td><img id="mdr" src="./187.JPG" alt="photo"><h5 style="margin-top: 30px;"> آقای دکتر سید محمود میران</h5></td>
+           </tr>
+
+           
+       
+       </table>
+    </div>
+</div>
+       
+       <div class="container-fluid">
+           
+       <table>
+           
+        <tr>
+            <th><h2> بازرس</h2></th>
+            <th><h2>عضو هیئت مدیره </h2></th>
+           <th><h2>عضو هیئت مدیره </h2></th>
+            <th><h2> منشی هیئت مدیره</h2></th>
+        </tr>
+    
+    
+        <tr>
+             <td><img id="mdr" src="./192.jpg" alt="photo"><h5 style="margin-top: 30px;"> آقای دکتر هاشمی قوچانی</h5></td>
+             <td><img id="mdr" src="./190.jpeg" alt="photo"><h5 style="margin-top: 30px;"> آقای دکتر علی کنگرلو حقیقی</h5></td>
+             <td><img id="mdr" src="./191.JPG" alt="photo"><h5 style="margin-top: 30px;">  آقای دکتر علیرضا نجفی انارکی</h5></td>
+             <td><img id="mdr" src="./189.JPG" alt="photo"><h5 style="margin-top: 30px;">  آقای دکتر علیرضا شفیعی</h5></td>
+            
+        </tr>
+        
+       </table>
+
+
+</div>
+</div>
+
+-->
+
+
+<br>
+<hr>
+
+
+<div class="container">
+    <div class="row">
+<footer  class ="navbar navbar-expand-sm navbar-dark" style="border: solid 5px #22565a; border-radius: 30px 0px 30px 0px; margin-bottom: 10px;float: left;">
+   
+   <div class=" col-4 col-sm-4 col-md-3"> <a href="./index.html"><button id="foto" type="button" class="btn btn-outline-dark btn-lg"><i class="fa fa-home">Home</i></button></a></div>
+   <div class=" col-4 col-sm-4 col-md-3"><a href="./ta'avoni.html"><button id="foto" type="button" class="btn btn-outline-dark btn-lg">درباره تعاونی</button></a></div>
+   <div class=" col-4 col-sm-4 col-md-3"><a href="./call.html"><button id="foto" type="button" class="btn btn-outline-dark btn-lg">تماس با ما</button></a></div>
+
+
+
+  
+
+</footer>
+
+</div>
+
+</div>
+
+    
+
+
+    <script src="./app.js"></script>
+
+      <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

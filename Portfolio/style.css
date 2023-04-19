@@ -1,0 +1,213 @@
+
+.green{
+    background-color:rgb(23, 84, 95);
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+    
+}
+
+#sar{
+    height: 200px;
+    width: 100%;
+    object-fit:initial;
+    
+
+    
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+#slider{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    
+    
+    position: relative;
+    border: 10px solid white;
+    box-shadow: 20px 20px 20px 0px #ccc;
+    animation-name: yoyo;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    
+}
+
+
+@keyframes yoyo {
+  
+    0%   { right:10%; top:0%;}
+
+    50% { right: -10%; }
+    
+  100% { right: 10%; top:0%;}
+  }
+
+
+#gun{
+    padding: 20px;
+    border: none;
+    
+    font-size: 10px;
+    color:black;
+    
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+
+}
+
+.next{
+    border-radius: 0px 20px 20px 0px;
+    margin-left: 100%;
+    height: 10%;
+    width: 3%;
+}
+
+.prew{  
+   
+    border-radius: 20px 0px 0px 20px;
+    margin-left: -45px;
+    height: 10%;
+    width: 3%;
+}
+
+#foto{
+transform: scale(1.1);
+border-radius: 15%;
+font-size: 17px;
+width: 90%;
+
+}
+#foto:hover{
+    border-radius: 50%;
+    scale: 1,2;
+    font-size: 20px;
+}
+
+
+
+
+#s1{
+    border: darkslategrey ridge 1px;
+    background-color:lightgoldenrodyellow;
+  
+    border-collapse:inherit;
+
+    
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count:5;
+    
+  
+}
+@keyframes example2 {
+    0%   {background-color:whitesmoke; }
+    25%   {background-color:lightgrey; }
+    50% {background-color:lavender; }
+    75% {background-color:lightsteelblue; }
+    100% {background-color:whitesmoke; }
+  }
+
+table,th,td{ 
+    text-align: center;
+      
+    border: 2px solid darkslategray;
+    border-collapse: collapse;
+    color: black;
+   
+
+    
+}
+th{
+  
+    padding-bottom: 20px;
+}
+table{
+    width: 100%;
+    background-color:darkgrey;
+    color: black;
+}
+
+
+
+
+
+
+#fa{
+    cursor: pointer;
+    font-size: 15px;
+    color:#37f;
+}
+
+.taha {
+    width: auto;
+    height: auto;  
+    object-fit:initial;
+    transition: all .2s;
+    display: inline;
+    margin-left:10%;
+    margin-top: 10px;
+    
+
+    
+}
+
+.taha:hover {
+    transform: scale(1.1);
+}
+#go{
+    margin-top: 10px;
+    
+}
+
+.container-fluid{
+    display: flex;
+}
+
+
+
+.zx{
+    width: 100%;
+    height: 100px;
+    
+}
+
+#er:hover{
+   background-color:cadetblue;
+
+}
+
+#y1{
+    width: 290px;
+    height: 300px;
+    object-fit:cover;
+}
+
+#hmd{
+    border: 2px solid rgb(20, 16, 16);
+    border-collapse: collapse;
+}
+
+#re{
+    border: darkslategrey ridge 1px;
+background-color:lightgoldenrodyellow;
+
+border-collapse:inherit;
+
+
+}
+
+#y1{
+width: 237px;
+height: 300px;
+object-fit:cover;
+}
+
+
